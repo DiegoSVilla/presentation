@@ -1,0 +1,61 @@
+@media (min-width:780px){
+  .App {
+    width: 75%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    overflow:auto; 
+  }
+}
+
+@media (max-width:780px){
+  .App {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    overflow:auto; 
+  }
+}
+
+.App-intro {
+  margin-top: 200px;
+  font-size: large;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes Me-Pulse {
+  from { transform: none; }
+  50% { transform: scale(1.2); }
+  to { transform: none; }
+}

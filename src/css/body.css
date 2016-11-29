@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-6";
+  src:url("./fonts/untitled-font-6.eot");
+  src:url("./fonts/untitled-font-6.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/untitled-font-6.woff") format("woff"),
+    url("./fonts/untitled-font-6.ttf") format("truetype"),
+    url("./fonts/untitled-font-6.svg#untitled-font-6") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-6" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-6" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   z-index: 1;
+}
+
+.icon-qr:before {
+  content: "\61";
+}
+.icon-0:before {
+  content: "\62";
+  font-size: 1.3em;
+  position: relative;
+  top:3px;
+}
+.icon-1:before {
+  content: "\63";
+  font-size: 1.3em;
+  position: relative;
+  top:3px;
+}
+.icon-2:before {
+  content: "\64";
+  font-size: 1.3em;
+  position: relative;
+  top:3px;
+}
+.icon-3:before {
+  content: "\65";
+  font-size: 1.3em;
+  position: relative;
+  top:3px;
+}
+.icon-4:before {
+  content: "\66";
+  font-size: 1.3em;
+  position: relative;
+  top:3px;
+}
+.icon-5:before {
+  content: "\67";
+  font-size: 1.3em;
+  position: relative;
+  top:3px;
+}
+.icon-list:before {
+  content: "\68";
+}
+.icon-unlock-alt:before {
+  content: "\69";
+}
+.icon-windows:before {
+  content: "\6a";
+}
+.icon-linux:before {
+  content: "\6b";
+}
+.icon-envelope:before {
+  content: "\6c";
+}
+.icon-linkedin-square:before {
+  content: "\6d";
+}
+.icon-android-laptop:before {
+  content: "\6e";
+}
+
+
+@font-face {
+font-family: LetterGothicStd;
+src: url("./LetterGothicStd.otf") format("opentype");
+}
+
+@media (min-width:491px){
+	.body {
+	 margin-top: 70px;
+	 padding-top: 25px;
+	 background: #fff;
+	}
+}
+@media (max-width:491px){
+	.body {
+	  margin-top: 120px;
+	  padding-top: 25px;
+	  background: #fff;
+	}
+}
+.curriculum-topic {
+	text-align: left;
+	border-top : 3px solid #d3d3d3;
+	margin: 5px;
+}
+.curriculum-card-cont {
+	overflow: auto;
+}
+
+.curriculum-sub-topic {
+	text-align: left;
+	margin: 5px;
+	overflow: auto;
+}
+
+.curriculum-img-descript {
+	clear:left;
+}
+
+.curriculum-title {
+	color: rgba(31, 156, 45, 0.6);
+	/*color: #77baF0;*/
+	border-bottom : 3px double #ddd;
+	line-height: 30px;
+	transition: color 0.6s ease-in-out;
+}
+a {
+	color: rgba(31, 156, 45, 1);
+	text-decoration: none;
+}
+
+a:hover {
+	background: rgba(0, 0, 0, 0.1);
+  	text-decoration: none;
+  	transition: background 0.3s ease-in-out;
+  	border-radius: 2px;
+}
+.curriculum-sub-title {
+	color: rgba(28, 140, 20, 1);
+	/*color: #359;*/
+	border-bottom : 1px solid #ddd;
+}
+
+.curriculum-title:hover {
+	color: rgba(31, 156, 45, 0.8);
+	/*color: #549aE0;*/
+	transition: color 0.6s ease-in-out;
+}
+h1 {
+	letter-spacing: 5px;
+}
+
+h2 {
+	letter-spacing: 4px;
+}
+
+h3 {
+	letter-spacing: 3px;
+}
+
+h4 {
+	letter-spacing: 2px;
+}
+.curriculum-img {
+	float:right;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #222;
+	border-radius: 8px;
+	padding: 3px;
+	width:20%; 
+	min-width: 180px;
+	height: auto;
+}
+
+.curriculum-text {
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.body-text {
+	font-family: "LetterGothicStd", monospace;
+	margin-left: 10px;
+	text-align: justify;
+}
+
+p.body-text {
+	color: #000;
+}
+@media (min-width:500px){
+	.body-left {
+		float:left ;
+		margin-left: 1%;
+		margin-right: 10px;
+	}
+	.body-img {
+		background: #222;
+	    border-radius: 8px;
+	    padding: 3px;
+	    width:30%; 
+	    min-width: 180px;
+	    height: auto;
+	}
+	.body {
+		font-size: 0.9em;
+		min-height: 800px;
+	}
+	.body-center{
+		text-align: center;
+	}
+
+}
+p {
+	margin: 1.5em;
+}
+@media (max-width:500px){
+	.body-img {
+		background: #222;
+	    border-radius: 8px;
+	    padding: 5px;
+	    width:60%;
+	    display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	    min-width: 180px;
+	    height: auto;
+	}
+	.body {
+		font-size: 0.8em;	
+	}
+
+}
+
+b {
+	background: rgba(31, 156, 45, 0.2);
+}
+
