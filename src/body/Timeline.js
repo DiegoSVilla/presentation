@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import '../css/body.css';
-import construction from '../images/under-construction.gif'
+
 
 class Timeline extends Component {
   componentDidMount () {
@@ -20,7 +20,7 @@ class Timeline extends Component {
 	          <br></br>
 	          <br></br>
 	          <div className="body-center">
-                <img src={construction} alt="Em construção" />
+
               </div>
               <br></br>
               <br></br>

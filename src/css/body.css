@@ -183,8 +183,12 @@ h3 {
 h4 {
 	letter-spacing: 2px;
 }
+@media (min-width: 460px){
+	.curriculum-img {
+		float:right;
+	}
+}
 .curriculum-img {
-	float:right;
 	margin-left: 10px;
 	margin-right: 10px;
 	background: #222;
