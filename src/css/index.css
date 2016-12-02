@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../images/cinzaFundo.jpg");
+  background-image: url("../../public/images/cinzaFundo.jpg");
 }
 
 header-container {

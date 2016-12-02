@@ -1,3 +1,5 @@
+//browserify -t browserify-css index.js -o bundle.js -t [ C:\Users\Avellan\AppData\Roaming\npm\node_modules\babelify --presets [ es2015 react ] ]
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, hashHistory, Link } from "react-router";

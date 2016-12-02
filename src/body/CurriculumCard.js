@@ -25,7 +25,7 @@ class CurriculumCard extends Component {
 	    	);
     	}
     } else if ("picture" == this.props.model.style){
-    	var src = require("../images/" + this.props.model.image);
+    	var src = "images/" + this.props.model.image;
     	display.push(
     		<img className="curriculum-img" src={src} alt={this.props.model.subtitle} />
     	);

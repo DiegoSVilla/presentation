@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import ReactDOM from 'react-dom';
-import greetmecut from '../images/memongo.jpg';
 import '../css/body.css';
 
 class AboutMe extends Component {
   componentDidMount () {
     window.scrollTo(0, 0)
   }
+
   render() {
     return (
       <div>
@@ -22,7 +22,7 @@ class AboutMe extends Component {
               <br></br>
               <h2 className="curriculum-title">SOBRE MIM</h2>
               <div className="body-center">
-                <img className="body-img body-left" src={greetmecut} alt="Eu no HQ do MongoDB" />
+                <img className="body-img body-left" src="images/memongo.jpg" alt="Eu no HQ do MongoDB" />
               </div>
               <p>
               Na sessão <b>Sobre Mim</b> falarei de forma um pouco mais abrangente e livre sobre minha vida, 

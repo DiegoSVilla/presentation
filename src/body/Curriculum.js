@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import CurriculumTopic from './CurriculumTopic.js';
-import curriculumTopics from './poJSo/ParentCCTable';
+import curriculumTopics from './poJSo/ParentCCTable.js';
 import '../css/body.css';
 
 
