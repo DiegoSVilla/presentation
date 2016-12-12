@@ -9,12 +9,11 @@ src: url("./LetterGothicStd.otf") format("opentype");
 	  background-color: #222;
 	  /*background-image: url("../cirquitsBack.png*/
 	  background-size: 100%;
-	  color: white;
+    height: 80px;
 	  margin: 0px auto;
 	}
   .header-button {
     width: 30%;
-    min-width: 140px;
     letter-spacing: 5px;
   }
 
@@ -24,20 +23,54 @@ src: url("./LetterGothicStd.otf") format("opentype");
 	  background-color: #222;
 	  /*background-image: url("../cirquitsBack.png*/
 	  background-size: 100%;
-	  color: white;
+    height: 50px;
 	  margin: 0px auto;
 	}
   .header-button {
-    width: 30%;
+    width: 90%;
     align-items: center;
-    min-width: 115px;
     letter-spacing: 2px;
   }
 }
+.header-align-left{
+  align-self: flex-start;
+}
+.header-tuggle {
+  align-items: flex-start;
+  text-align: right;
+  letter-spacing: 2px;
+  margin-right: 1vw;
+  margin-left: 20px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  outline:0;
+}
+
+.on {
+  color: rgba(31, 156, 45, 0.6);
+  transition: background 0.35s ease-in-out;
+}
+
+.off {
+  color: white;
+  transition: background 0.35s ease-in-out;
+}
+
+.header-menu{
+  align-self: flex-end;
+  background-color: #222;
+  overflow: auto;
+  width: 220px;
+}
+
 .header{
     z-index: 1000;
     position: relative;
-    overflow: auto;
+
 }
 .header-title {
 	margin: auto;
@@ -46,6 +79,7 @@ src: url("./LetterGothicStd.otf") format("opentype");
 }
 @media (max-width:780px){
   .header-container {
+    background-color: #222;
     width: 100%;
     margin: 0 auto; 
     position: fixed;
@@ -55,6 +89,7 @@ src: url("./LetterGothicStd.otf") format("opentype");
 
 @media (min-width:780px){
   .header-container {
+    background-color: #222;
     width: 75%;
     max-width: 900px;
     margin: 0 auto; 
@@ -70,7 +105,6 @@ src: url("./LetterGothicStd.otf") format("opentype");
 }
 .header-btn-cnt {
   margin-top: 20px;
-  text-align: center;
 }
 .header-button {
   display: inline-block;
@@ -79,14 +113,12 @@ src: url("./LetterGothicStd.otf") format("opentype");
   margin-top: 1px;
   height: 50px;
   margin-bottom: 20px;
-  border-radius: 10px 10px 10px 10px;
   font-family: "LetterGothicStd", monospace;
   background: none;
   border: none;
   color: #FFF;
   font-size: 90% ;
   transition: background 0.35s ease-in-out;
-  text-decoration: underline;
 }
 .header-button:focus {
 	outline:0;
@@ -97,7 +129,9 @@ src: url("./LetterGothicStd.otf") format("opentype");
   background: rgba(31, 156, 45, 0.3);
   text-decoration: none;
   transition: background 0.3s ease-in-out;
-  text-decoration: underline;
+}
+.center{
+  text-align: center;
 }
 
  /* background: rgba(31, 156, 45, 0.3); */

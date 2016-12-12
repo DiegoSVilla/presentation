@@ -38,7 +38,10 @@ var curriculumCards = [
 		subtitle:"Avatar",
 		items:[
 			{
-				text:"24 anos."
+				text:"24 anos"
+			},
+			{
+				text:"<i class='fa fa-lg fa-home'></i> São Paulo - SP"
 			},
 			{
 				text:"<i class='fa fa-lgg fa-mobile'></i> (11)996758399"
@@ -64,13 +67,13 @@ var curriculumCards = [
 				text:"Interesse na área de Software, respaldado por matérias dadas na universidade, projetos pessoais e trabalho na área."
 			},
 			{
-				text:"trabalhou no ambiente universitário com C e C++, teve diversas materias orientadas a desenvolvimento de software como <b>OO</b>, <b>egenharía de software</b>, <b>estrutura de dados</b>, <b>lógica</b>, <b>algoritmos</b> entre outras."
+				text:"Trabalhou no ambiente universitário com C e C++; frequentou diversas matérias orientadas a desenvolvimento de software como <b>OO</b>, <b>engenharia de software</b>, <b>estrutura de dados</b>, <b>lógica</b>, <b>algoritmos</b>, entre outras."
 			},
 			{
-				text:"Desenvolveu (Java), modelou e projetou <b>soluções de segurança no Itaú</b>, envolvendo <b>criptografia e monitoramento</b>. Particiopou como engenheiro master em um grande projeto de segurança, gerindo três recursos de desenvolvimento (Java e .Net)"
+				text:"Desenvolveu (Java), modelou e projetou <b>soluções de segurança no Itaú</b>, envolvendo <b>criptografia e monitoramento</b>. Participou como Engenheiro Master em um grande projeto de segurança, gerindo três recursos de desenvolvimento (Java e .Net)"
 			},
 			{
-				text:"<b>Consultoría de segurança</b> nas empresas YouInc. e Josar ind. Gráfica envolvendo gestão de permições e domino da Segurança da Informacao (Confidencialidade, integridade e autenticidade), estruturas físicas de rede e servidores e configuração de acessos via VPN"
+				text:"<b>Consultoria de segurança</b> nas empresas YouInc. e Josar Ind. Gráfica, envolvendo gestão de permissões e domínio da Segurança da Informação (Confidencialidade, Integridade e Autenticidade), estruturas físicas de rede e servidores e configuração de acessos via VPN"
 			}
 		]
 	},
@@ -81,7 +84,7 @@ var curriculumCards = [
 		style:"list",
 		items:[
 			{
-				text:"<b>Assembly</b> (Experiência com micropressesadores simples, de 8 - 64 instruções) <i class='icon-3'></i>"
+				text:"<b>Assembly</b> (Experiência com microprocessadores simples, de 8 - 64 instruções) <i class='icon-3'></i>"
 			},
 			{
 				text:"<b>Quartus II</b>, Modelagem e FPGA <i class='icon-3'></i>"
@@ -98,7 +101,7 @@ var curriculumCards = [
 				text:"Interesse na área de Hardware, respaldado por matérias dadas na universidade e projetos pessoais"
 			},
 			{
-				text:"trabalhou no ambiente universitário com <b>FPGA</b>, <b>Arduino</b>, <b>ESP8266</b>, <b>RaspberryPi</b>, <b>Tecnología TTL de CI</b> e varios <b>microprocessadores</b> simples. Teve diversas materias orientadas a desenvolvimento de hardware como Laboratórios Digitais 1 e 2, Laboratório de Fundamentos para Engenharía da Computação, Laboratório de Processadores, Arquitetura e Organização de sistemas digitais, diversas eletrônicas, entre outras."
+				text:"Trabalhou no ambiente universitário com <b>FPGA</b>, <b>Arduíno</b>, <b>ESP8266</b>, <b>RaspberryPi</b>, <b>Tecnologia TTL de CI</b> e vários <b>microprocessadores</b> simples. Frequentou diversas matérias orientadas a desenvolvimento de hardware como Laboratórios Digitais 1 e 2, Laboratório de Fundamentos para Engenharia da Computação, Laboratório de Processadores, Arquitetura e Organização de Sistemas Digitais, diversas eletrônicas, entre outras."
 			}
 		]
 	},
@@ -109,7 +112,7 @@ var curriculumCards = [
 		style: "list",
 		items:[
 			{
-				text:'<b>Torre de hanoi</b> de tamanho "n", C'
+				text:'<b>Torre de Hanoi</b> de tamanho "n", C'
 			},
 			{
 				text:"Programa de <b>busca de palavras em textos</b>, C++"
@@ -118,16 +121,16 @@ var curriculumCards = [
 				text:"<b>Resolvedor de Sudoku</b>, C++"
 			},
 			{
-				text:"<b>Controle de inseminação artificial</b> para uso comercial, C++, Win32 API"
+				text:"<b>Controle de inseminação artificial bovino</b> para uso comercial, C++, Win32 API"
 			},
 			{
-				text:'<b>"Bixo"</b>, Python (Carrinho autonomo)'
+				text:'<b>"Bixo"</b>, Python (carrinho autônomo)'
 			},
 			{
-				text:"Dumper, Loader, Conversor Hex-Dec e Dec-Hex entre outros recursos de <b>sistema em Assembly para uma máquina virtual de 16 instruções<b></b>"
+				text:"Dumper, Loader, Conversor Hex-Dec e Dec-Hex, entre outros recursos de <b>sistemas em Assembly para uma máquina virtual de 16 instruções<b></b>"
 			},
 			{
-				text:"Varios <b>projetos de segurança</b> nos canais mobile (BackEnd) e web (FrontEnd, BackEnd) <b>Itaú</b>, Java e JavaScript/JQuery"
+				text:"Vários <b>projetos de segurança</b> nos canais mobile (BackEnd) e web (FrontEnd, BackEnd) do <b>Itaú</b>, Java e JavaScript/JQuery"
 			},
 			{
 				text:"<b>Curriculum Web</b>, ReactJs"
@@ -146,7 +149,7 @@ var curriculumCards = [
 				text:"<b>Projeto vencedor da Hackathon Ambev 2015</b>, Ionic, NodeJS (Sails.js) e Angular."
 			},
 			{
-				text:"Ganhamos uma viagem de uma semana para o <b>Vale do Silicio, California</b>, e lá visitamos os HQs do Facebook e Twitter, uma aceleradora de startups e assistimos varios pitchs"
+				text:"Ganhamos uma viagem de uma semana para o <b>Vale do Silicio, Califórnia</b>, e lá visitamos os HQs do Facebook e Twitter, uma aceleradora de startups e também assistimos vários pitchs"
 			}
 		]
 	},
@@ -169,7 +172,7 @@ var curriculumCards = [
 				text:"<b>Processador simples</b> (16 instruções, memória e via de dados) em FPGA"
 			},
 			{
-				text:'<b>"Bixo"</b>, utilizando Raspbery Pi e Arduino (Carrinho autonomo)'
+				text:'<b>"Bixo"</b>, utilizando Raspbery Pi e Arduíno (carrinho autônomo)'
 			},
 			{
 				text:"<b>Sistema modular de controle de luzes via web</b>, utilizando RaspberryPi e ESP8266"
@@ -178,7 +181,7 @@ var curriculumCards = [
 	},
 
 	{
-		title:"Colegios",
+		title:"Colégios",
 		parent:"formacao",
 		style: "list",
 		items:[
@@ -230,7 +233,7 @@ var curriculumCards = [
 				text:"Cargo: <b>Engenheiro de Segurança</b> (Cybersecurity)."
 			},
 			{
-				text:"Análise e execução de projetos de segurança nas plataformas web e mobile, gestão de times e arquitetura e Engenharia de software."
+				text:"Análise e execução de projetos de segurança nas plataformas web e mobile, gestão de times e arquitetura, Engenharia de software."
 			},
 		]
 	},
@@ -244,13 +247,13 @@ var curriculumCards = [
 				text:"Início: 10/2015."
 			},
 			{
-				text:"<b>Assessment de segurança da infraestrutura de informacao</b> de empresas como YouInc e Josar ind. Gráfica, seguida de orientação e execução de medidas corretivas e preventivas no ámbito de políticas e informática."
+				text:"<b>Assessment de segurança da infraestrutura de informação</b> de empresas como YouInc e Josar Ind. Gráfica, seguida de orientação e execução de medidas corretivas e preventivas no âmbito de políticas e informática."
 			},
 		]
 	},
 
 	{
-		title:"Linguagens Naturais",
+		title:"Idiomas",
 		parent:"atividades complementares",
 		style: "list",
 		items:[
@@ -258,7 +261,7 @@ var curriculumCards = [
 				text:"<b>Espanhol</b> fluente, falado e escrito <i class='icon-5'></i>"
 			},
 			{
-				text:"<b>Ingles</b> fluente, falado e escrito <i class='icon-4'></i>"
+				text:"<b>Inglês</b> fluente, falado e escrito <i class='icon-4'></i>"
 			},
 		]
 	},

@@ -26,14 +26,14 @@ class AboutMe extends Component {
               </div>
               <p>
               Na sessão <b>Sobre Mim</b> falarei de forma um pouco mais abrangente e livre sobre minha vida, 
-              formação e experiências. Se quiser uma leitura mais sucinta e direta, sinta-se livre para visitar a aba <b>Curriculum</b>!
+              formação e experiências. Se quiser uma leitura mais sucinta e direta, sinta-se livre para visitar a aba <b>Curriculum</b>.
               </p>
               <br></br>
               <h3 className="curriculum-sub-title">This.state</h3>
               
               <p>
               Meu nome é <b>Diego Sulzbeck Villalobos</b>, tenho 24 anos e sou estudante de Engenharia Elétrica na POLI-USP. Como ênfase do curso, optei por Computação, 
-              o que resulta numa grade com menos elétrica e bastante eletrônica, organização e arquitetura de computadores, engenharía de software, 
+              o que resulta numa grade com menos elétrica e bastante eletrônica, organização e arquitetura de computadores, engenharia de software, 
               entre outras disciplinas que seguem essa linha.
               </p>
               <p>
@@ -44,38 +44,31 @@ class AboutMe extends Component {
               <h3 className="curriculum-sub-title">This.getHistory()</h3>
               
               <p>
-              Nasci em <b>São Paulo</b> e estudei até meus 12 anos no colégio espanhol Miguel de Cervantes. 
-              Por ser filho de espanhol, castelhano sempre foi natural para mim, e o colégio reforçou 
-              meu conhecimento gramatical deste idioma. 
-              </p>
-              <p>
-              Posteriormente, fomos para Santiago, Chile, e lá morei e estudei durante 5 anos. Durante esse periodo, com 14 anos de idade, 
-              comecei a me interessar por programação. Um amigo meu me mostrou uma IDE de desenvolvimento de jogos, muito simples e intuitiva, 
-              chamada <b>Game Maker</b> (desenvolvida pelo excelentíssimo professor Markus Hendrik Overmars) que na época era gratuita.
-              </p>
-              <p>
+              Nasci em <b>São Paulo</b> e estudei até meus 12 anos no colégio espanhol Miguel de Cervantes.
+              Posteriormente, minha família se mudou para Santiago, Chile, e lá estudei durante 5 anos. Durante esse periodo, comecei a me interessar por programação. Um amigo meu me mostrou uma IDE de desenvolvimento de jogos, simples e intuitiva, 
+              chamada <b>Game Maker</b> (desenvolvida pelo excelentíssimo professor Markus Hendrik Overmars).
               Inicialmente com o método de drag-and-drop, e logo utilizando scripts para comportamentos mais complexos e personalizados, 
               o grupo de três amigos fazia e jogava os jogos um do outro.
+              
               </p>
               <br></br>
               <h3 className="curriculum-sub-title">GoTo("Brazil", this)</h3>
               
               <p>
-              Na volta para minha pátria, deixei bastante coisa para trás: amigos, namorada, professores e lugares onde havia passado minha adolescência. 
-              Me fechei bastante nos estudos e entrei na Escola Politécnica com 19 anos, após um ano de cursinho e um ano "perdido" na troca de país. 
-              Mochilei antes de ingressar na Universidade durante 2 meses, passando pela Espanha (Madrid e Barcelona, 2 semanas) e Reino Unido (Inglaterra  
+              Ao retornar para minha pátria, me fechei bastante nos estudos e entrei na Escola Politécnica com 19 anos, após um ano de cursinho e um ano perdido na troca de país. 
+              Mochilei antes de ingressar na Universidade, passando pela Espanha (Madrid e Barcelona, 2 semanas) e Reino Unido (Inglaterra  
               e Escocia, 1 mês e meio).
               </p>
               <p>
-              Os dois primeiros anos da Escola Politécnica, período conhecido como Biênio, são formulados de maneira extremamente teórica e distante da área 
-              de específica. Deste modo, posso admitir que não fui um aluno exemplar. Recuperei o foco nos meus estudos no terceiro ano, quando as matérias passaram 
+              Os dois primeiros anos da Escola Politécnica, período conhecido como Biênio, são formulados de maneira extremamente teórica e distante da área específica.
+              Deste modo, posso admitir que não fui um aluno exemplar. Recuperei o foco nos meus estudos no terceiro ano, quando as matérias passaram 
               a ser específicas para Computação.
               </p>
               <p >
               No quarto ano de universidade, comecei a trabalhar na área de segurança do Itaú, e essa foi uma experiência indescritível. Entrei por um programa de 
               talentos e tive em todo momento acompanhamento na estruturação do meu PDI - ter objetivos tangíveis e práticos além da Universidade foi uma grande motivação 
               para mim. Nessa época, aprendi muitas das linguagens que apresentarei na aba <b>Curriculum</b>, participei e ganhei com meu grupo o hackathon de 2015 da Ambev, 
-              terminei cursos e livros relacionados a segurança e forneci serviços de consultoria de segurança como free-lancer em duas empresas de medio porte.
+              terminei cursos e livros relacionados a segurança e forneci serviços de consultoria de segurança como free-lancer em duas empresas de médio porte.
               </p>
               <p >
               Além do aprendizado mais técnico, a vivência no mercado de trabalho foi muito importante para mim, e as lições aprendidas - seja no maior banco privado 
@@ -85,8 +78,7 @@ class AboutMe extends Component {
               <h3 className="curriculum-sub-title">This.nextState</h3>
               
               <p >
-              Estou no 5' ano do meu curso, com previsão de me formar em 4 semestres. A pesar do ritmo lento que estou levando des de
-              que comecei a trabalhar, acredito que experiencia de mercado durante a formação vale mais que qualquer adicional.
+              Estou no 5º ano do meu curso, com previsão de me formar em 4 semestres. Apesar do meu ritmo lento na Universidade desde que comecei a trabalhar, acredito que experiência de mercado durante a formação vale mais que qualquer adicional.
               </p>
             </ReactCSSTransitionGroup>
        </div>

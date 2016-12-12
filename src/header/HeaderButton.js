@@ -6,7 +6,7 @@ class HeaderButton extends Component {
   render() {
     return (
       <Link to={this.props.rout}>
-          <button className="header-button">{this.props.title}</button>
+          <button className="header-button" onClick={this.props.onClick}>{this.props.title}</button>
       </Link>
     );
   }
