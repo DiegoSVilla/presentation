@@ -4,7 +4,6 @@ import CurriculumTopic from './CurriculumTopic.js';
 import curriculumTopics from './poJSo/ParentCCTable.js';
 import '../css/body.css';
 
-
 class Curriculum extends Component {
   componentDidMount () {
     window.scrollTo(0, 0)
@@ -26,6 +25,7 @@ class Curriculum extends Component {
             transitionAppearTimeout={500}
             transitionEnterTimeout={500}
             transitionLeaveTimeout={500}>
+            <p><a className="body-text" href="CVDiegoVillalobos.pdf">Download versão PDF!</a></p>
             {topics}                                 
           </ReactCSSTransitionGroup>
         </div>
