@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
-import ReactDOM from 'react-dom';
 import '../css/body.css';
 
 class AboutMe extends Component {

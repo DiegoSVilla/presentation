@@ -302,7 +302,7 @@ module.exports={
 	cards:function(parent){
 		var cards = [];
     	for (var i=0; i < curriculumCards.length; i++){
-    		if (curriculumCards[i].parent == parent){
+    		if (curriculumCards[i].parent === parent){
     			cards.push(curriculumCards[i]);
     		};
     	};

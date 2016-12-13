@@ -2,7 +2,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, hashHistory, Link } from "react-router";
+import { Router, Route, IndexRoute, hashHistory} from "react-router";
 import App from './App';
 import AboutMe from './body/AboutMe';
 import Curriculum from './body/Curriculum';

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from "react-router";
 import HeaderButton from './HeaderButton.js';
 import '../css/header.css';
 import '../css/font-awesome.css';
