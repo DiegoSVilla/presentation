@@ -12,11 +12,9 @@ class DropDown extends Component {
   }
   onClick(e){
   	this.setState({ showA: !this.state.showA });
-    console.log(this.state.showA);
   }
   render() {
     const menu = this.state.showA;
-    console.log(menu);
     return (
       <div>
           {  menu ?

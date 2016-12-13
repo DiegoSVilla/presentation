@@ -27655,6 +27655,15 @@ var Curriculum = function (_Component) {
             transitionAppearTimeout: 500,
             transitionEnterTimeout: 500,
             transitionLeaveTimeout: 500 },
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'a',
+              { className: 'body-text', href: 'CVDiegoVillalobos.pdf' },
+              'Download vers\xE3o PDF!'
+            )
+          ),
           topics
         )
       );

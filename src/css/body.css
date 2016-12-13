@@ -106,16 +106,16 @@ font-family: LetterGothicStd;
 src: url("./LetterGothicStd.otf") format("opentype");
 }
 
-@media (min-width:491px){
+@media (min-width:493px){
 	.body {
 	 margin-top: 70px;
 	 padding-top: 25px;
 	 background: #fff;
 	}
 }
-@media (max-width:491px){
+@media (max-width:493px){
 	.body {
-	  margin-top: 120px;
+	  margin-top: 40px;
 	  padding-top: 25px;
 	  background: #fff;
 	}
