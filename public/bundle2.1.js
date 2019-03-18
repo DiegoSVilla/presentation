@@ -27906,7 +27906,7 @@ exports.default = Timeline;
 "use strict";
 
 var curriculumCards = [{
-	title: "Linguagens de Programação",
+	title: "Programming Lenguages",
 	parent: "conhecimentos",
 	style: "list",
 	items: [{
@@ -27985,7 +27985,7 @@ var curriculumCards = [{
 	items: [{
 		text: '<b>Hanoi Tower</b> size "n", C'
 	}, {
-		text: "<b>word finder for huge texts</b>, C++"
+		text: "<b>Word finder for huge texts</b>, C++"
 	}, {
 		text: "<b>Sudoku Solver</b>, C++"
 	}, {
@@ -28008,9 +28008,9 @@ var curriculumCards = [{
 	image: "mePrizeWin.jpg",
 	subtitle: "Hackathon Ambev 2015, November",
 	items: [{
-		text: "<b>Winning project Hackathon Ambev 2015</b>, Ionic, NodeJS (Sails.js) and Angular."
+		text: "<b>Winning project at Hackathon Ambev 2015</b>, Ionic, NodeJS (Sails.js) and Angular."
 	}, {
-		text: "We won a trip to <b>Silicon Valey, California</b>, where we visited the HQs of Facebook and Twitter as well as startups and startups acelerators"
+		text: "We won a trip to <b>Silicon Valey, California</b>, where we visited the HQs of Facebook and Twitter as well as startups and startup acelerators"
 	}]
 }, {
 	title: "Hardware",
