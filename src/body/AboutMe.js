@@ -31,13 +31,11 @@ class AboutMe extends Component {
               <h3 className="curriculum-sub-title">This.state</h3>
               
               <p>
-              Meu nome é <b>Diego Sulzbeck Villalobos</b>, tenho 24 anos e sou estudante de Engenharia Elétrica na POLI-USP. Como ênfase do curso, optei por Computação, 
-              o que resulta numa grade com menos elétrica e bastante eletrônica, organização e arquitetura de computadores, engenharia de software, 
-              entre outras disciplinas que seguem essa linha.
+              Meu nome é <b>Diego Sulzbeck Villalobos</b>, tenho 27 anos e sou estudante de Engenharia Elétrica Com Ênfase em Computação na POLI-USP e 
+              Consultor Analista de Dados para uma empresa Israelense no território LATAM.
               </p>
               <p>
-              Atualmente estou morando em São Paulo, capital, e trabalhando como engenheiro de segurança
-              (Cybersecurity) no Itaú.
+              Atualmente estou morando em São Paulo, capital.
               </p>
               <br></br>
               <h3 className="curriculum-sub-title">This.getHistory()</h3>
@@ -54,30 +52,30 @@ class AboutMe extends Component {
               <h3 className="curriculum-sub-title">GoTo("Brazil", this)</h3>
               
               <p>
-              Ao retornar para minha pátria, me fechei bastante nos estudos e entrei na Escola Politécnica com 19 anos, após um ano de cursinho e um ano perdido na troca de país. 
-              Mochilei antes de ingressar na Universidade, passando pela Espanha (Madrid e Barcelona, 2 semanas) e Reino Unido (Inglaterra  
-              e Escocia, 1 mês e meio).
+              Retornando me fechei bastante nos estudos e entrei na Escola Politécnica com 19 anos, após um ano de cursinho. 
+              Mochilei antes de ingressar na Universidade pela Espanha, Catalunha e Inglaterra.
               </p>
               <p>
-              Os dois primeiros anos da Escola Politécnica, período conhecido como Biênio, são formulados de maneira extremamente teórica e distante da área específica.
-              Deste modo, posso admitir que não fui um aluno exemplar. Recuperei o foco nos meus estudos no terceiro ano, quando as matérias passaram 
-              a ser específicas para Computação.
+              Devido a alguns contratempos e foco em oportunidades incríveis na área de segurança que tive a sorte de ter, O curso acabou 
+              se alongando, e hoje representa uma carga horária baixa com previsão de conclusão em 2020.
               </p>
               <p >
-              No quarto ano de universidade, comecei a trabalhar na área de segurança do Itaú, e essa foi uma experiência indescritível. Entrei por um programa de 
+              Paralelamente comecei a trabalhar na área de segurança do Itaú em 2015, e essa foi uma experiência indescritível. Entrei por um programa de 
               talentos e tive em todo momento acompanhamento na estruturação do meu PDI - ter objetivos tangíveis e práticos além da Universidade foi uma grande motivação 
               para mim. Nessa época, aprendi muitas das linguagens que apresentarei na aba <b>Curriculum</b>, participei e ganhei com meu grupo o hackathon de 2015 da Ambev, 
               terminei cursos e livros relacionados a segurança e forneci serviços de consultoria de segurança como free-lancer em duas empresas de médio porte.
               </p>
               <p >
-              Além do aprendizado mais técnico, a vivência no mercado de trabalho foi muito importante para mim, e as lições aprendidas - seja no maior banco privado 
-              do brasil ou como consultor em uma empresa de médio porte - fizeram de mim uma pessoa mais profissional e madura.
+              Hoje tenho uma carreira estreitamente ligada com segurança bancaria, passei pelos times de seguranças do Itaú e do Bradesco e ainda trabalho 
+              junto a eles e outros muitos bancos no território LATAM através da BioCatch, empresa israelense de Behavioral Security.
               </p>
               <br></br>
               <h3 className="curriculum-sub-title">This.nextState</h3>
               
               <p >
-              Estou no 5º ano do meu curso, com previsão de me formar em 4 semestres. Apesar do meu ritmo lento na Universidade desde que comecei a trabalhar, acredito que experiência de mercado durante a formação vale mais que qualquer adicional.
+              A experiência de trabalhar internacionalmente com segurança, observando o cenário bancario de mais de 10 bancos na américa latina e central 
+              é extremamente enriquecedora, hoje mais do que nunca vejo e posso auxiliar na Big Picture da fraude LATAM. Tenho muito a aproveitar dessa 
+              oportunidade que tenho com a BioCatch estes próximos anos.
               </p>
             </ReactCSSTransitionGroup>
        </div>
