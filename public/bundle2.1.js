@@ -27500,12 +27500,12 @@ var AboutMe = function (_Component) {
                 null,
                 'Diego Sulzbeck Villalobos'
               ),
-              ', tenho 24 anos e sou estudante de Engenharia El\xE9trica na POLI-USP. Como \xEAnfase do curso, optei por Computa\xE7\xE3o, o que resulta numa grade com menos el\xE9trica e bastante eletr\xF4nica, organiza\xE7\xE3o e arquitetura de computadores, engenharia de software, entre outras disciplinas que seguem essa linha.'
+              ', tenho 27 anos e sou estudante de Engenharia El\xE9trica Com \xEAnfase em Computa\xE7\xE3o na POLI-USP e Consultor Analista de Dados para uma empresa Israelense no territ\xF3rio LATAM.'
             ),
             _react2.default.createElement(
               'p',
               null,
-              'Atualmente estou morando em S\xE3o Paulo, capital, e trabalhando como engenheiro de seguran\xE7a (Cybersecurity) no Ita\xFA.'
+              'Atualmente estou morando em S\xE3o Paulo, capital.'
             ),
             _react2.default.createElement('br', null),
             _react2.default.createElement(
@@ -27539,17 +27539,17 @@ var AboutMe = function (_Component) {
             _react2.default.createElement(
               'p',
               null,
-              'Ao retornar para minha p\xE1tria, me fechei bastante nos estudos e entrei na Escola Polit\xE9cnica com 19 anos, ap\xF3s um ano de cursinho e um ano perdido na troca de pa\xEDs. Mochilei antes de ingressar na Universidade, passando pela Espanha (Madrid e Barcelona, 2 semanas) e Reino Unido (Inglaterra e Escocia, 1 m\xEAs e meio).'
+              'Retornando me fechei bastante nos estudos e entrei na Escola Polit\xE9cnica com 19 anos, ap\xF3s um ano de cursinho. Mochilei antes de ingressar na Universidade pela Espanha, Catalunha e Inglaterra.'
             ),
             _react2.default.createElement(
               'p',
               null,
-              'Os dois primeiros anos da Escola Polit\xE9cnica, per\xEDodo conhecido como Bi\xEAnio, s\xE3o formulados de maneira extremamente te\xF3rica e distante da \xE1rea espec\xEDfica. Deste modo, posso admitir que n\xE3o fui um aluno exemplar. Recuperei o foco nos meus estudos no terceiro ano, quando as mat\xE9rias passaram a ser espec\xEDficas para Computa\xE7\xE3o.'
+              'Devido a alguns contratempos e foco em oportunidades incr\xEDveis na \xE1rea de segurança que tive a sorte de ter, O curso acabou se alongando, e hoje representa uma carga horária baixa com previs\xE3o de conclus\xE3o em 2020.'
             ),
             _react2.default.createElement(
               'p',
               null,
-              'No quarto ano de universidade, comecei a trabalhar na \xE1rea de seguran\xE7a do Ita\xFA, e essa foi uma experi\xEAncia indescrit\xEDvel. Entrei por um programa de talentos e tive em todo momento acompanhamento na estrutura\xE7\xE3o do meu PDI - ter objetivos tang\xEDveis e pr\xE1ticos al\xE9m da Universidade foi uma grande motiva\xE7\xE3o para mim. Nessa \xE9poca, aprendi muitas das linguagens que apresentarei na aba ',
+              'Paralelamente comecei a trabalhar na \xE1rea de seguran\xE7a do Ita\xFA em 2015, e essa foi uma experi\xEAncia indescrit\xEDvel. Entrei por um programa de talentos e tive em todo momento acompanhamento na estrutura\xE7\xE3o do meu PDI - ter objetivos tang\xEDveis e pr\xE1ticos al\xE9m da Universidade foi uma grande motiva\xE7\xE3o para mim. Nessa \xE9poca, aprendi muitas das linguagens que apresentarei na aba ',
               _react2.default.createElement(
                 'b',
                 null,
@@ -27560,8 +27560,8 @@ var AboutMe = function (_Component) {
             _react2.default.createElement(
               'p',
               null,
-              'Al\xE9m do aprendizado mais t\xE9cnico, a viv\xEAncia no mercado de trabalho foi muito importante para mim, e as li\xE7\xF5es aprendidas - seja no maior banco privado do brasil ou como consultor em uma empresa de m\xE9dio porte - fizeram de mim uma pessoa mais profissional e madura.'
-            ),
+              'Hoje tenho uma carreira estreitamente ligada a seguran\xE7a bancaria, passei pelos times de seguran\xE7a do Ita\xFA e do Bradesco e ainda trabalho junto a eles e outros muitos bancos no territ\xF3rio LATAM atrav\xE9s da BioCatch, empresa israelense de Behavioral Security.'
+                          ),
             _react2.default.createElement('br', null),
             _react2.default.createElement(
               'h3',
@@ -27571,7 +27571,7 @@ var AboutMe = function (_Component) {
             _react2.default.createElement(
               'p',
               null,
-              'Estou no 5\xBA ano do meu curso, com previs\xE3o de me formar em 4 semestres. Apesar do meu ritmo lento na Universidade desde que comecei a trabalhar, acredito que experi\xEAncia de mercado durante a forma\xE7\xE3o vale mais que qualquer adicional.'
+              'A experiência de trabalhar internacionalmente com seguran\xE7a, observando o cenário bancario de mais de 10 bancos na américa latina e central é extremamente enriquecedora, hoje mais do que nunca vejo e posso auxiliar na Big Picture da fraude LATAM. Tenho muito a aproveitar dessa oportunidade que tenho com a BioCatch estes próximos anos.'
             )
           )
         )
@@ -28152,7 +28152,7 @@ var curriculumTopics = [{
 	title: "<i class='fa fa-plus'></i> OTHER ACTIVITIES",
 	name: "atividades complementares"
 }, {
-	title: "<i class='fa fa-soccer-ball-o'></i> OUTRAS INFORMAÇÕES",
+	title: "<i class='fa fa-soccer-ball-o'></i> OUTRAS INFORMAçÕES",
 	name: "outras informacoes"
 }];
 
