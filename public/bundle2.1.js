@@ -27500,7 +27500,7 @@ var AboutMe = function (_Component) {
                 null,
                 'Diego Sulzbeck Villalobos'
               ),
-              ', tenho 27 anos e sou estudante de Engenharia El\xE9trica Com \xEAnfase em Computa\xE7\xE3o na POLI-USP e Consultor Analista de Dados para uma empresa Israelense no territ\xF3rio LATAM.'
+              ', tenho 29 anos e sou estudante de Engenharia El\xE9trica Com \xEAnfase em Computa\xE7\xE3o na POLI-USP e Consultor Analista de Dados para uma empresa Israelense no territ\xF3rio LATAM.'
             ),
             _react2.default.createElement(
               'p',
@@ -27933,7 +27933,7 @@ var curriculumCards = [{
 	image: "meAvatar.jpg",
 	subtitle: "Avatar",
 	items: [{
-		text: "Age: 26"
+		text: "Age: 29"
 	}, {
 		text: "<i class='fa fa-lg fa-home'></i> São Paulo - SP"
 	}, {
