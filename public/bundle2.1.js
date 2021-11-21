@@ -27959,7 +27959,9 @@ var curriculumCards = [{
 		text: "Developed (R, Java), modeld and projected <b>security solutions at Bradesco</b>, coverig <b>Machine Learning</b> and other data solutions"
 	}, {
 		text: "<b>Security consultant</b> at YouInc. and Josar Ind. Gráfica, covering permission management and domain of Information Security, network fisical structure and servers and configuration of access through VPN"
-	}]
+	}, {
+        text: "<b>Security consultant</b> at BioCatch, covering data insights, fraud detection and preventing, product calibration and client reporting"
+    }]
 }, {
 	title: "Assembly and Hardware Description",
 	parent: "conhecimentos",
@@ -28047,11 +28049,11 @@ var curriculumCards = [{
 	items: [{
 		text: "Bachelor at <b>Escola Politécnica da USP</b>, studying <b>Eletrical Engineering with enphasis in Computing Engineering</b>."
 	}, {
-		text: "Expected Completion <b>jul/2019</b>"
+		text: "Expected Completion <b>dec/2021</b>"
 	}]
 }, {
 	title: "Courses",
-	parent: "formacao",
+	parent: "formacao",        
 	style: "list",
 	items: [{
 		text: "<b>Cybersecurity and Its Ten Domains</b>, Coursera, 2015"
@@ -28072,12 +28074,23 @@ var curriculumCards = [{
 	parent: "trabalho",
 	style: "normal",
 	items: [{
-		text: "Start: 04/2018."
+		text: "Start: 04/2018 - End: 05/2019"
 	}, {
 		text: "Job: <b>Security Engeneer</b> (Cybersecurity)."
 	}, {
 		text: "Data analysis and development of machine learning models for monitoring and reacting to frauds"
 	}]
+}, {
+    title: "BioCatch",
+    parent: "trabalho",
+    style: "normal",
+    items: [{
+        text: "Start: 05/2019 - End: 11/2021"
+    }, {
+        text: "Job: <b>Threat Analist</b> (Cybersecurity/Data)."
+    }, {
+        text: "Data analysis and client facing calibration of an Israeli tool, involving R, python, PowerBI and SQL"
+    }]
 },{
 	title: "Security Consultant",
 	parent: "trabalho",
@@ -28137,7 +28150,10 @@ var curriculumTopics = [{
 	title: "<i class='fa fa-user-circle'></i> PERSONAL DATA",
 	name: "dados pessoais"
 }, {
-	title: "<i class='fa fa-gears'></i> KNOWLEDGE",
+    title: "<i class='fa fa-industry'></i> WORK",
+    name: "trabalho"
+}, {
+	title: "<i class='fa fa-gears'></i> KNOWLEDGE",        
 	name: "conhecimentos"
 }, {
 	title: "<i class='fa fa-wrench'></i> PROJECTS",
@@ -28145,9 +28161,6 @@ var curriculumTopics = [{
 }, {
 	title: "<i class='fa fa-graduation-cap'></i> ACADEMIC",
 	name: "formacao"
-}, {
-	title: "<i class='fa fa-industry'></i> WORK",
-	name: "trabalho"
 }, {
 	title: "<i class='fa fa-plus'></i> OTHER ACTIVITIES",
 	name: "atividades complementares"
